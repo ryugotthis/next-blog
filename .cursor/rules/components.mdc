@@ -1,11 +1,9 @@
 ---
 description: 
-globs: 
+globs: components/**/*.ts,components/**/*.tsx
 alwaysApply: false
 ---
----
-globs: ["components/**/*.{ts,tsx}"]
----
+
 컴포넌트 파일은 다음 규칙을 준수합니다:
 
 1. 파일 명명 규칙:
