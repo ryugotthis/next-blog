@@ -1,0 +1,1135 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "20380ce5-cf5d-802a-9ba6-e7d0f60311f2",
+            "created_time": "2025-05-30T08:07:00.000Z",
+            "last_edited_time": "2025-05-30T10:49:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "ec4b86fb-a00b-43f1-a591-f353ce51b255",
+                            "name": "Next.js",
+                            "color": "pink"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": [
+                        {
+                            "object": "user",
+                            "id": "f4181be7-20de-442c-8646-15b9963fb6d9",
+                            "name": "류수빈",
+                            "avatar_url": null,
+                            "type": "person",
+                            "person": {
+                                "email": "ryusb981211@gmail.com"
+                            }
+                        }
+                    ]
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-05-30",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Next.js 프로젝트 셋팅",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Next.js 프로젝트 셋팅",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Next-js-20380ce5cf5d802a9ba6e7d0f60311f2",
+            "public_url": "https://clear-hook-e5a.notion.site/Next-js-20380ce5cf5d802a9ba6e7d0f60311f2"
+        },
+        {
+            "object": "page",
+            "id": "20180ce5-cf5d-80c5-9898-f1a8f564aef4",
+            "created_time": "2025-05-28T22:38:00.000Z",
+            "last_edited_time": "2025-05-29T13:23:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "ec4b86fb-a00b-43f1-a591-f353ce51b255",
+                            "name": "Next.js",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "ac2325e1-5de5-431c-8c15-17e4aa7bf9e3",
+                            "name": "Cursor AI",
+                            "color": "default"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": [
+                        {
+                            "object": "user",
+                            "id": "f4181be7-20de-442c-8646-15b9963fb6d9",
+                            "name": "류수빈",
+                            "avatar_url": null,
+                            "type": "person",
+                            "person": {
+                                "email": "ryusb981211@gmail.com"
+                            }
+                        }
+                    ]
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-05-29",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Cursor AI 소개#",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Cursor AI 소개#",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Cursor-AI-20180ce5cf5d80c59898f1a8f564aef4",
+            "public_url": "https://clear-hook-e5a.notion.site/Cursor-AI-20180ce5cf5d80c59898f1a8f564aef4"
+        },
+        {
+            "object": "page",
+            "id": "20180ce5-cf5d-8015-98c7-e55073764afb",
+            "created_time": "2025-05-28T08:47:00.000Z",
+            "last_edited_time": "2025-05-28T20:40:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "ec4b86fb-a00b-43f1-a591-f353ce51b255",
+                            "name": "Next.js",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "3a456ebc-07e7-4e87-8bf5-76248bc18292",
+                            "name": "Web",
+                            "color": "gray"
+                        },
+                        {
+                            "id": "fb18a934-a3d3-4ff1-b289-7ffc19973e06",
+                            "name": "렌더링",
+                            "color": "brown"
+                        },
+                        {
+                            "id": "1dc94989-a184-4267-a961-c08fb63f44db",
+                            "name": "CSR",
+                            "color": "default"
+                        },
+                        {
+                            "id": "17a679ac-1b2c-4fab-bb8c-9c991189a388",
+                            "name": "SSR",
+                            "color": "yellow"
+                        },
+                        {
+                            "id": "4f1b47cd-94de-4aa2-99a1-d0cbd7d8ed45",
+                            "name": "SPA",
+                            "color": "red"
+                        },
+                        {
+                            "id": "ebd7ed52-4fbb-49c9-92b4-f8b1a9f2f7b7",
+                            "name": "SSG",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "4c83516a-da74-420d-b0f9-da08c84f109c",
+                            "name": "ISR",
+                            "color": "default"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": [
+                        {
+                            "object": "user",
+                            "id": "f4181be7-20de-442c-8646-15b9963fb6d9",
+                            "name": "류수빈",
+                            "avatar_url": null,
+                            "type": "person",
+                            "person": {
+                                "email": "ryusb981211@gmail.com"
+                            }
+                        }
+                    ]
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-05-27",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Next.js 웹 렌더링 이해하기",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Next.js 웹 렌더링 이해하기",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Next-js-20180ce5cf5d801598c7e55073764afb",
+            "public_url": "https://clear-hook-e5a.notion.site/Next-js-20180ce5cf5d801598c7e55073764afb"
+        },
+        {
+            "object": "page",
+            "id": "20180ce5-cf5d-817e-b7fc-dc43446b198f",
+            "created_time": "2025-05-28T08:47:00.000Z",
+            "last_edited_time": "2025-05-28T08:47:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": {
+                "type": "external",
+                "external": {
+                    "url": "https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+                }
+            },
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).",
+                            "href": null
+                        }
+                    ]
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "css",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "css",
+                            "href": null
+                        }
+                    ]
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "d12cc1cb-2032-4310-b702-ff1e5b3f4321",
+                            "name": "CSS",
+                            "color": "blue"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": [
+                        {
+                            "object": "user",
+                            "id": "4bfe3f3d-574d-4bac-ac34-904866b85fa4"
+                        }
+                    ]
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2025-02-07",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Cascading Style Sheets",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Cascading Style Sheets",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Cascading-Style-Sheets-20180ce5cf5d817eb7fcdc43446b198f",
+            "public_url": "https://clear-hook-e5a.notion.site/Cascading-Style-Sheets-20180ce5cf5d817eb7fcdc43446b198f"
+        },
+        {
+            "object": "page",
+            "id": "20180ce5-cf5d-8187-a35a-eecd62a40868",
+            "created_time": "2025-05-28T08:47:00.000Z",
+            "last_edited_time": "2025-05-28T08:47:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": {
+                "type": "external",
+                "external": {
+                    "url": "https://images.unsplash.com/photo-1520962880247-cfaf541c8724?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+                }
+            },
+            "icon": {
+                "type": "emoji",
+                "emoji": "🧘‍♀️"
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "현재 순간에 충실하고 마음챙김을 실천하는 기술을 소개하는 글입니다.",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "현재 순간에 충실하고 마음챙김을 실천하는 기술을 소개하는 글입니다.",
+                            "href": null
+                        }
+                    ]
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "git",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "git",
+                            "href": null
+                        }
+                    ]
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "5dd4e138-bb84-4ca1-8fa4-a41b7bb6ea98",
+                            "name": "Git",
+                            "color": "orange"
+                        },
+                        {
+                            "id": "8830ac58-581e-451f-81f8-c06d18535e81",
+                            "name": "Github",
+                            "color": "purple"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": [
+                        {
+                            "object": "user",
+                            "id": "4bfe3f3d-574d-4bac-ac34-904866b85fa4"
+                        }
+                    ]
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2023-12-07",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Git 시작하기 - 버전 관리 개요",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Git 시작하기 - 버전 관리 개요",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Git-20180ce5cf5d8187a35aeecd62a40868",
+            "public_url": "https://clear-hook-e5a.notion.site/Git-20180ce5cf5d8187a35aeecd62a40868"
+        },
+        {
+            "object": "page",
+            "id": "20180ce5-cf5d-81f3-b1ac-d89188959f5b",
+            "created_time": "2025-05-28T08:47:00.000Z",
+            "last_edited_time": "2025-05-28T08:47:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": {
+                "type": "external",
+                "external": {
+                    "url": "https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+                }
+            },
+            "icon": {
+                "type": "emoji",
+                "emoji": "📚"
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "제가 가장 좋아하는 책 10권과 그 책들이 제 인생에 어떤 영향을 끼쳤는지 소개하는 글입니다. ",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "제가 가장 좋아하는 책 10권과 그 책들이 제 인생에 어떤 영향을 끼쳤는지 소개하는 글입니다. ",
+                            "href": null
+                        }
+                    ]
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "layouts-pages",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "layouts-pages",
+                            "href": null
+                        }
+                    ]
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "f3f94c7b-a9ba-48f5-95be-7736837234c6",
+                            "name": "React",
+                            "color": "default"
+                        },
+                        {
+                            "id": "ec4b86fb-a00b-43f1-a591-f353ce51b255",
+                            "name": "Next.js",
+                            "color": "pink"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": [
+                        {
+                            "object": "user",
+                            "id": "4bfe3f3d-574d-4bac-ac34-904866b85fa4"
+                        }
+                    ]
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2023-10-11",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "레이아웃과 페이지 생성 방법",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "레이아웃과 페이지 생성 방법",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/20180ce5cf5d81f3b1acd89188959f5b",
+            "public_url": "https://clear-hook-e5a.notion.site/20180ce5cf5d81f3b1acd89188959f5b"
+        },
+        {
+            "object": "page",
+            "id": "20180ce5-cf5d-8114-a69b-eda127bdfbb9",
+            "created_time": "2025-05-28T08:47:00.000Z",
+            "last_edited_time": "2025-05-28T08:47:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": {
+                "type": "external",
+                "external": {
+                    "url": "https://images.unsplash.com/photo-1616278842935-f36557148755?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+                }
+            },
+            "icon": {
+                "type": "emoji",
+                "emoji": "🍱"
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "이 페이지의 링크들은 다양한 튜토리얼과 학습 자료로 연결됩니다. 웹 개발 초보자부터 중급자, 전문가까지 모두에게 도움이 되는 자료를 찾을 수 있습니다.",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "이 페이지의 링크들은 다양한 튜토리얼과 학습 자료로 연결됩니다. 웹 개발 초보자부터 중급자, 전문가까지 모두에게 도움이 되는 자료를 찾을 수 있습니다.",
+                            "href": null
+                        }
+                    ]
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "web-beginner",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "web-beginner",
+                            "href": null
+                        }
+                    ]
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "df6af6b0-fc38-47a1-a236-c12442030343",
+                            "name": "JavaScript",
+                            "color": "brown"
+                        },
+                        {
+                            "id": "3a456ebc-07e7-4e87-8bf5-76248bc18292",
+                            "name": "Web",
+                            "color": "gray"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": [
+                        {
+                            "object": "user",
+                            "id": "4bfe3f3d-574d-4bac-ac34-904866b85fa4"
+                        }
+                    ]
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2023-08-22",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "웹 개발 학습 가이드",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "웹 개발 학습 가이드",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/20180ce5cf5d8114a69beda127bdfbb9",
+            "public_url": "https://clear-hook-e5a.notion.site/20180ce5cf5d8114a69beda127bdfbb9"
+        },
+        {
+            "object": "page",
+            "id": "20180ce5-cf5d-814f-ba99-d3fc4ea519d9",
+            "created_time": "2025-05-28T08:47:00.000Z",
+            "last_edited_time": "2025-05-28T08:47:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "f4181be7-20de-442c-8646-15b9963fb6d9"
+            },
+            "cover": {
+                "type": "external",
+                "external": {
+                    "url": "https://images.unsplash.com/photo-1555081944-c0c2f00d06e8?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb"
+                }
+            },
+            "icon": {
+                "type": "emoji",
+                "emoji": "💭"
+            },
+            "parent": {
+                "type": "database_id",
+                "database_id": "20180ce5-cf5d-815e-a1c0-d536d82b78ed"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "Description": {
+                    "id": "%3BUrC",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "HTML(Hypertext Markup Language)은 웹 페이지의 구조를 정의하는 마크업 언어입니다. 웹 페이지의 콘텐츠를 여러 개의 문단, 목록, 이미지, 데이터 테이블 등으로 구조화하는 데 사용됩니다.",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "HTML(Hypertext Markup Language)은 웹 페이지의 구조를 정의하는 마크업 언어입니다. 웹 페이지의 콘텐츠를 여러 개의 문단, 목록, 이미지, 데이터 테이블 등으로 구조화하는 데 사용됩니다.",
+                            "href": null
+                        }
+                    ]
+                },
+                "Slug": {
+                    "id": "Kl%5Dm",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "html-nextjs",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "html-nextjs",
+                            "href": null
+                        }
+                    ]
+                },
+                "Tags": {
+                    "id": "T%5Cnr",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "d12cc1cb-2032-4310-b702-ff1e5b3f4321",
+                            "name": "CSS",
+                            "color": "blue"
+                        },
+                        {
+                            "id": "ec4b86fb-a00b-43f1-a591-f353ce51b255",
+                            "name": "Next.js",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "86fa7417-e39f-4708-bb1d-26409a43cff1",
+                            "name": "HTML",
+                            "color": "red"
+                        }
+                    ]
+                },
+                "Status": {
+                    "id": "hy%3Ad",
+                    "type": "select",
+                    "select": {
+                        "id": "7d321161-4960-4e36-8dd4-7191c43c9d3c",
+                        "name": "Published",
+                        "color": "red"
+                    }
+                },
+                "Author": {
+                    "id": "jrg_",
+                    "type": "people",
+                    "people": []
+                },
+                "Modified Date": {
+                    "id": "tBzY",
+                    "type": "date",
+                    "date": null
+                },
+                "Date": {
+                    "id": "wOPZ",
+                    "type": "date",
+                    "date": {
+                        "start": "2023-06-09",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "Title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "HTML과 Next.js 레이아웃의 이해",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "HTML과 Next.js 레이아웃의 이해",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/HTML-Next-js-20180ce5cf5d814fba99d3fc4ea519d9",
+            "public_url": "https://clear-hook-e5a.notion.site/HTML-Next-js-20180ce5cf5d814fba99d3fc4ea519d9"
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_database",
+    "page_or_database": {},
+    "request_id": "5e5af34c-db39-4afd-9d7b-1bded55f64a2"
+
+}
