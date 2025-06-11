@@ -1,5 +1,5 @@
 import ProfileSection from '@/app/_components/ProfileSection';
-import { getTags } from '@/lib/notion';
+import { getPublishedPosts, getTags } from '@/lib/notion';
 import ContactSection from '@/app/_components/ContactSection';
 
 import HeaderSection from '@/app/_components/HeaderSection';
@@ -17,6 +17,10 @@ export default async function Home({ searchParams }: HomeProps) {
   const selectedSort = sort || 'latest';
 
   const tags = getTags();
+  const postsPromise = getPublishedPosts({
+    tag: selectedTag,
+    sort: selectedSort,
+  });
 
   return (
     <div className="container py-8">
@@ -32,10 +36,7 @@ export default async function Home({ searchParams }: HomeProps) {
           <HeaderSection selectedTag={selectedTag} />
           {/* 블로그 카드 그리드 */}
           <Suspense fallback={<div>Loading...</div>}>
-            <PostListSuspense
-              selectedTag={selectedTag}
-              selectedSort={selectedSort}
-            />
+            <PostListSuspense postsPromise={postsPromise} />
           </Suspense>
         </div>
         {/* 우측 사이드바 */}
