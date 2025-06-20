@@ -1,24 +1,17 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Youtube, Github, BookOpen, Instagram } from 'lucide-react';
+import { Github, Instagram } from 'lucide-react';
 import Image from 'next/image';
 
 const socialLinks = [
   {
-    icon: Youtube,
-    href: 'https://www.youtube.com/gymcoding',
-  },
-  {
     icon: Github,
-    href: 'https://github.com/gymcoding',
+    href: 'https://github.com/ryugotthis',
   },
-  {
-    icon: BookOpen,
-    href: 'https://www.inflearn.com/users/432199/@gymcoding',
-  },
+
   {
     icon: Instagram,
-    href: 'https://www.instagram.com/gymcoding',
+    href: 'https://www.instagram.com/ryucandoit6_6',
   },
 ];
 
@@ -31,7 +24,7 @@ export default function ProfileSection() {
             <div className="bg-muted rounded-full p-2">
               <div className="h-36 w-36 overflow-hidden rounded-full">
                 <Image
-                  src="/images/profile-light.png"
+                  src="/images/profile.png"
                   alt="류수빈"
                   width={144}
                   height={144}
