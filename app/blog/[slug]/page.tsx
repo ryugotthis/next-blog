@@ -15,11 +15,12 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
 import rehypeSanitize from 'rehype-sanitize';
 import rehypePrettyCode from 'rehype-pretty-code';
+import rehypeSlug from 'rehype-slug';
 import { compile } from '@mdx-js/mdx';
-import withSlugs from 'rehype-slug';
 import withToc from '@stefanprobst/rehype-extract-toc';
 import withTocExport from '@stefanprobst/rehype-extract-toc/mdx';
 
+// 목차 타입
 interface TocEntry {
   value: string;
   depth: number;
@@ -29,6 +30,7 @@ interface TocEntry {
 
 // type Toc = Array<TocEntry>;
 
+// 목차 링크 컴포넌트
 function TableOfContentsLink({ item }: { item: TocEntry }) {
   return (
     <div className="space-y-2">
@@ -58,11 +60,16 @@ export default async function BlogPost({ params }: BlogPostProps) {
   const { slug } = await params;
   const { markdown, post } = await getPostBySlug(slug);
 
+  // 목차 데이터 추출
   const { data } = await compile(markdown, {
     rehypePlugins: [
-      withSlugs,
+      // withSlugs과 같음 목차 링크 생성(아이디 생성)
+      rehypeSlug,
+      // rehypeSanitize XSS 공격 방지
       rehypeSanitize,
+      // withToc 목차 추출
       withToc,
+      // withTocExport 목차 데이터 추출
       withTocExport,
       /** Optionally, provide a custom name for the export. */
       // [withTocExport, { name: 'toc' }],
@@ -109,7 +116,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
               options={{
                 mdxOptions: {
                   remarkPlugins: [remarkGfm],
-                  rehypePlugins: [withSlugs, rehypeSanitize, rehypePrettyCode],
+                  // rehypeSanitize XSS 공격 방지
+                  // rehypePrettyCode 코드 스타일 예쁘게
+                  // rehypeSlug 목차 링크 생성(아이디 생성)
+                  rehypePlugins: [rehypeSlug, rehypeSanitize, rehypePrettyCode],
                 },
               }}
             />

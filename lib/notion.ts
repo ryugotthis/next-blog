@@ -1,3 +1,6 @@
+// notion 데이터 가져오기
+// notion-sdk-js라이브러리로 쉽게 데이터 가져옴
+
 import { Client } from '@notionhq/client';
 import type { Post, TagFilterItem } from '@/types/blog';
 import type {
@@ -66,6 +69,7 @@ export const getPostBySlug = async (
   post: Post;
 }> => {
   const response = await notion.databases.query({
+    // undefined 에러방지위해 타입단언 사용!
     database_id: process.env.NOTION_DATABASE_ID!,
     filter: {
       and: [
@@ -180,6 +184,7 @@ export const getTags = async (): Promise<TagFilterItem[]> => {
   );
 
   // "전체" 태그 추가
+  // 총 개시글의 수
   tags.unshift({
     id: 'all',
     name: '전체',

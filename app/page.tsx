@@ -1,11 +1,13 @@
-import ProfileSection from '@/app/_components/ProfileSection';
+import ProfileSection from '@/app/_components/features/ProfileSection';
 import { getPublishedPosts, getTags } from '@/lib/notion';
-import ContactSection from '@/app/_components/ContactSection';
+import ContactSection from '@/app/_components/features/ContactSection';
 
-import HeaderSection from '@/app/_components/HeaderSection';
+import HeaderSection from '@/app/_components/features/HeaderSection';
 import PostListSuspense from '@/components/features/blog/PostListSuspense';
 import { Suspense } from 'react';
-import TagSectionClient from '@/app/_components/TagSection.client';
+import TagSectionClient from '@/app/_components/features/TagSection.client';
+import PostListSkelecton from '@/components/features/blog/PostListSkeleton';
+import TagSectionSkeleton from '@/app/_components/features/TagSectionSkeleton';
 
 interface HomeProps {
   searchParams: Promise<{ tag?: string; sort?: string }>;
@@ -27,7 +29,7 @@ export default async function Home({ searchParams }: HomeProps) {
       <div className="grid grid-cols-[200px_1fr_220px] gap-6">
         {/* 좌측 사이드바 */}
         <aside>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<TagSectionSkeleton />}>
             <TagSectionClient tags={tags} selectedTag={selectedTag} />
           </Suspense>
         </aside>
@@ -35,7 +37,7 @@ export default async function Home({ searchParams }: HomeProps) {
           {/* 섹션 제목 */}
           <HeaderSection selectedTag={selectedTag} />
           {/* 블로그 카드 그리드 */}
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<PostListSkelecton />}>
             <PostListSuspense postsPromise={postsPromise} />
           </Suspense>
         </div>
