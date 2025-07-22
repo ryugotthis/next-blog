@@ -2,13 +2,13 @@ import Link from 'next/link';
 import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
 import { CalendarDays, User } from 'lucide-react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from '@/components/ui/card';
+// import { ChevronLeft, ChevronRight } from 'lucide-react';
+// import {
+//   Card,
+//   CardHeader,
+//   CardTitle,
+//   CardDescription,
+// } from '@/components/ui/card';
 import { getPostBySlug } from '@/lib/notion';
 import { formatDate } from '@/lib/date';
 import { MDXRemote } from 'next-mdx-remote/rsc';
@@ -19,7 +19,7 @@ import rehypeSlug from 'rehype-slug';
 import { compile } from '@mdx-js/mdx';
 import withToc from '@stefanprobst/rehype-extract-toc';
 import withTocExport from '@stefanprobst/rehype-extract-toc/mdx';
-
+import GiscusComments from '@/components/GiscusComments';
 // 목차 타입
 interface TocEntry {
   value: string;
@@ -128,7 +128,8 @@ export default async function BlogPost({ params }: BlogPostProps) {
           <Separator className="my-16" />
 
           {/* 이전/다음 포스트 네비게이션 */}
-          <nav className="grid grid-cols-2 gap-8">
+          <GiscusComments />
+          {/* <nav className="grid grid-cols-2 gap-8">
             <Link href="/blog/previous-post">
               <Card className="group hover:bg-muted/50 transition-colors">
                 <CardHeader>
@@ -158,7 +159,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 </CardHeader>
               </Card>
             </Link>
-          </nav>
+          </nav> */}
         </section>
         <aside className="relative">
           <div className="sticky top-[var(--sticky-top)]">

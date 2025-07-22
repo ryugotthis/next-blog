@@ -18,7 +18,7 @@ export default async function Home({ searchParams }: HomeProps) {
   const selectedTag = tag || '전체';
   const selectedSort = sort || 'latest';
 
-  const tags = getTags();
+  const tags = getTags(); //  결과값은 아직 안 나온 상태 유지 -> props로 넘겨줄려고
   const postsPromise = getPublishedPosts({
     tag: selectedTag,
     sort: selectedSort,

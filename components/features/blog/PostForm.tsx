@@ -11,7 +11,7 @@ import { createPostAction } from '@/app/actions/blog';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { useQueryClient } from '@tanstack/react-query';
 import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 export default function PostForm() {
   const queryClient = useQueryClient();
